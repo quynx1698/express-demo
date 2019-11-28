@@ -13,7 +13,12 @@ app.get("/", function(req, res) {
 });
 
 app.get("/users", function(req, res) {
-  res.send("User list");
+  res.render("users/index", {
+    users: [
+      { id: 1, name: "Thinh" },
+      { id: 2, name: "Hung" }
+    ]
+  });
 });
 
 app.listen(port, function() {
