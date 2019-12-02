@@ -4,6 +4,7 @@
   "description": "This is a first ExpressJS project.",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -13,7 +14,9 @@
     "express": "^4.17.1",
     "pug": "^2.0.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/quynx1698/express-demo.git"
