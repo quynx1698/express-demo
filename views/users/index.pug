@@ -1,14 +1,18 @@
-h1 Users
+extends ../layouts/common.pug
 
-a(href="/users/create") New
+block content
 
-form(action="/users/search", method="get")
- input(type="text", name="q", value = query)
- button Search
+  h1 Users
 
-ul
- each user in users
-  li
-    span= user.name
-    span &nbsp
-    a(href="/users/" + user.id) View
+  a(href="/users/create") New
+
+  form(action="/users/search", method="get", class="d-flex")
+    input(type="text", name="q", value = query, class = "form-control")
+    button(class="btn btn-primary ml-2") Search
+
+  ul
+    each user in users
+      li
+        span= user.name
+        span &nbsp
+        a(href="/users/" + user.id) View
