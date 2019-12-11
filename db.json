@@ -1,33 +1,24 @@
 {
   "user": [
     {
-      "name": "Hung",
-      "id": "vPf-tCyO"
-    },
-    {
-      "name": "Quang",
-      "id": "PLnmZStr"
-    },
-    {
       "name": "Thinh",
-      "id": "X-Loszvn"
+      "phone": "0987654312",
+      "id": "2eCwgGDu"
     },
     {
-      "name": "Duy",
-      "id": "4iABXfpF"
+      "name": "Hung",
+      "phone": "0987654321",
+      "id": "HeAlZ4xS"
     },
     {
       "name": "Minh",
-      "id": "-ggFMU_7"
+      "phone": "0978645321",
+      "id": "9_GjWdh_"
     },
     {
-      "name": "Nhi",
-      "id": "Obs9_-uw"
-    },
-    {
-      "name": "Ngoc",
-      "phone": "0987654321",
-      "id": "ZhJVkhSo"
+      "name": "Duy",
+      "phone": "0986745231",
+      "id": "Hs54BU3m"
     }
   ]
 }
