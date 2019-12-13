@@ -6,6 +6,7 @@ var bodyParser = require("body-parser");
 var cookieParser = require("cookie-parser");
 
 var userRoute = require("./routes/user.route");
+var authRoute = require("./routes/auth.route");
 
 app.set("view engine", "pug");
 app.set("views", "./views");
@@ -21,6 +22,7 @@ app.get("/", function(req, res) {
 });
 
 app.use("/users", userRoute);
+app.use("/auth", authRoute);
 
 app.listen(port, function() {
   console.log("Server listening on port " + port);
