@@ -635,5 +635,13 @@
       "image": "http://dummyimage.com/197x198.png/5fa2dd/ffffff",
       "description": "ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at"
     }
+  ],
+  "sessions": [
+    {
+      "id": "SigrPRkv",
+      "cart": {
+        "6013cc13-e0be-4d2a-b8e0-bb504d261aa8": 2
+      }
+    }
   ]
 }
